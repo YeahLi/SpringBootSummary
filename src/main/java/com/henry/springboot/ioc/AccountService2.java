@@ -11,10 +11,6 @@ public class AccountService2 {
 
     private AccountDao accountDao;
 
-    /**
-     * Set方法名必须与bean id相同
-     * @param accountDao
-     */
     @Autowired
     public void setAccountDao(AccountDao accountDao){
         this.accountDao = accountDao;

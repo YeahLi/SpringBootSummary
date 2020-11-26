@@ -7,10 +7,6 @@ import org.springframework.stereotype.Component;
 public class AccountService3 {
     private AccountDao accountDao;
 
-    /**
-     * Constructor 注入，参数名必须与bean名相同
-     * @param accountDao
-     */
     @Autowired
     public AccountService3(AccountDao accountDao){
         this.accountDao = accountDao;
